@@ -1,0 +1,140 @@
+#Trabajo practico 2: Estructura secuencial.
+
+# Ejercicio 1
+'''Calcular el valor de las siguientes expresiones, respetando el orden de operaciones 
+establecido.'''
+sum =(12 * 4) + (4*5)
+print (sum) 
+sum  = (12 *(1-5 ) + 4) * 3
+print (sum)
+sum = (12 * 1)- 5 + (4 * 3)
+print (sum)
+sum = (17-2)/5
+print (sum)
+sum = 3 + (2 * 2) - (8 * 4 + (1 / 2.0)) * 3
+print (sum)
+sum = (5 * 4 )/ 2
+print (sum)
+sum = 5 * (4 /2)
+print (sum)
+sum = 24 / (2**2)
+print (sum)
+sum = (24/2)**2
+print (sum)
+sum = 3 + (4 * (6 /2)) - 5
+print (sum)
+sum = 3 + 4 * 6 /(2 - 5)
+print ("Fin.")
+
+# Ejercicio 2
+
+'''Desarrollar un programa que permite ingresar dos numeros enteros A y B a traves del teclado.
+Imprimir su suma y la diferencia. '''
+
+n1 = int(input("ingrese aqui un numero entero: "))
+n2 = int(input("ingrese aqui un numero entero: "))
+sum = n1 + n2
+print (sum)
+sum = n1 - n2
+print (sum)
+print ("Fin.")
+
+# Ejercicio 3
+
+'''Calcular el promedio de las notas que obtiene un alumno al rendir los dos parciales.'''
+
+nota1 = int(input("ingrese aqui la nota del primer parcial: "))
+nota2 = int(input("ingrese aqui la nota del segundo parcial: "))
+promedio = ((nota1 + nota2)/2)
+print ("El promedio es: ", promedio)
+print ("Fin.")
+
+# Ejercicio 4
+
+'''Escribir un programa que permita ingresar la edad de una persona en años y la convierta en dias, 
+imprimiendo el resultado. Considerar que todos los años tienen 365 días. '''
+
+edad = int(input("ingrese aqui su edad: "))
+anio = 365
+conversion= edad * anio
+print ("En total tienes: " ,conversion, "dias")
+print ("Fin.")
+
+# Ejercicio 5
+ 
+''' Tres personas invierten dinero para fundar una empresa (no necesariamente en partes iguales).
+Calcular qué porcentaje invirtió cada una. '''
+
+inversion1 = float(input("ingrese aqui su inversion: "))
+inversion2 = float(input("ingrese aqui su inversion: "))
+inversion3 = float (input("ingrese aqui su inversion: "))
+sum =(inversion1 + inversion2 +inversion3)
+inversiontotal = sum
+el100= 100
+sum = ((inversion1 * el100) / inversiontotal)
+print ("el porcentaje de la primera inversion es de: ",sum,"%")
+sum = ((inversion2 * el100) / inversiontotal)
+print ("el porcentaje de la primera segunda inversion es de: ",sum,"%")
+sum = ((inversion3 * el100) / inversiontotal)
+print ("el porcentaje de la primera inversion es de: ",sum,"%")
+print ("Fin.")
+
+#Ejercicio 6
+
+'''Ingresar tres numeros enteros, calcular su promedio y mostrarlo en pantalla. '''
+
+n1 = int(input("ingrese aqui un numero entero: "))
+n2 = int(input("ingrese aqui un numero entero: "))
+n3 = int(input("ingrese aqui un numero entero: "))
+sum =(n1 + n2 + n3)
+suma = sum
+promedio = suma / 3
+print ("El promedio es de: ", promedio)
+print ("Fin.")
+
+print ( ó )
+
+n1 = int (input("ingrese un numero entero: "))
+n2 = int (input("ingrese un numero entero: "))
+n3 = int (input("ingrese un numero entero: "))
+sum = (n1+n2+n3) /3
+print ("El promedio es", sum)
+
+# Ejercicio 7
+
+'''Una persona invierte su capital en un banco y desea saber cuánto dinero ganará en un mes, 
+teniendo en cuenta que el banco paga 2% mensual. Cuánto ganará en seis meses si deja su dinero
+invertido? '''
+
+inversion= float (input("ingrese aqui su inversion: "))
+interesmensual = inversion * 0.02
+print ("el interes mensual es de: ",interesmensual)
+pormes= inversion + interesmensual 
+seisme = pormes * 6
+print ("Lo que ganara en seis meses si deja su dinero inverido es de: ",seisme)
+print ("Fin.")
+
+#Ejercicio 8
+
+'''
+Leer una medida en metros e imprimir esta medida expresada en centímetros, pulgadas, pies y 
+yardas. Los factores de conversion son:
+1 pie = 12 pulgadas
+1 yarda = 3 pies
+1 pulgada = 2.54 cm
+1 metro = 100 cm
+'''
+
+metro = int (input ("ingrese aqui una medida en metros: " ))
+print ("son", metro, "metros")
+cm = metro * 100
+print ("son", cm, "centimetros")
+pulgada = cm / 2.54
+print ("son", pulgada, "pulgadas")
+pie = pulgada / 12
+print ("son", pie, "pies")
+yarda= pie / 3
+print ("son", yarda, "yardas")
+print ("Fin.")
+
+
